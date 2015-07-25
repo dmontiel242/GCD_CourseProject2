@@ -1,16 +1,3 @@
-Scripts:
-
-run_analysis.r : script reads in measurement training and test datasets, combines them, extracts measurements corresponding to mean and std, calculates the mean of each of these mean and std measurements for every subject and activity
-
-Required Datasets:
-X_train.txt
-Y_train.txt
-Y_test.txt
-X_test.txt
-subject_test.txt
-activity_labels.txt
-
-
 library(reshape2)
 #read in and combine training and test datasets
 xtrain <- read.table("C:\\Users\\Dan\\Desktop\\Coursera\\getdata-projectfiles-UCI HAR Dataset\\UCI HAR Dataset\\train\\X_train.txt")#load in traing set
