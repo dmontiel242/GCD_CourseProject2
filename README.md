@@ -1,3 +1,5 @@
+Assumptions: The run_analysis script assumes UCI data has been downloaded manually and run_analysis.r is placed in top level directory. test and training data set files are located in appropiate subfolders.
+
 Scripts:
 
 run_analysis.r : script reads in measurement training and test datasets, combines them, extracts measurements corresponding to mean and std, calculates the mean of each of these mean and std measurements for every subject and activity
